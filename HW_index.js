@@ -25,10 +25,10 @@ console.log(namesAges);
 //новый массив, в котором элементы идут в обратной последовательности.
 
 const reversedArray = [];
-for(let i = namesAges.length - 1; i >= 0; i--){
-     reversedArray.push(namesAges[i]);
+for(let i = 0; i < namesAges.length; i++){
+      reversedArray.unshift(namesAges[i]);
      }
-     console.log(reversedArray);
+    console.log(reversedArray);
 /*[
   'Татьяна 34 лет/годов',
   'Петр 74 лет/годов',
